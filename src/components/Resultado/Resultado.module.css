@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.result {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.resultItem {
+    padding: 8px 8px;
+}
+
+img{
+    max-width: 100%;
+    margin: 0 auto;
+    opacity: .7;
+    margin-bottom: 16px;
+    padding: 16px;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    
+}
+
+.descricao{
+    text-align: left;
+    color: #777778;
+}
+
+@media (max-width: 768px) {
+    .result {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+}
